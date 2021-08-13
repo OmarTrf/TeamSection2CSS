@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team Section</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background: #efefef;
+			font-family: serif;
+		}
+		#box{
+			text-align: center;
+			margin:90px auto 45px;
+		}
+		#box p{
+			width: 50%;
+			position: relative;
+			left: 24.5%;
+			margin-top: 14px;
+			line-height: 25px;
+		}
+		.profile{
+			position: relative;
+			width: 240px;
+			height: 240px;
+			background: #fff;
+			border-radius: 5px;
+			margin-bottom: 28px;
+			box-shadow:  0 9px 9px 9px rgba(115,193,255,0.1);
+			padding: 20px;
+			margin-right:25px;
+			transition: background 1s;
+		}
+		.profile img{
+			width: 120px;
+			height: 120px;
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			transition: 1s;
+			border-radius: 3px;
+		}
+		.profile h4{
+			margin-top: 24px;
+			margin-bottom: 5px;
+			color: #2196f3;
+			position: absolute;
+			left: 20px;top: 15px;
+			transition:0.7s;
+		}
+		.profile small{
+			color: #555;
+			position: absolute;
+			left: 20px;top: 80px;
+		}
+		.social ul{
+			list-style: none;
+			border:0.5px dotted #555;
+			width: 80%;
+            height:20px;
+            box-sizing: border-box;
+            background:#1590f3eb;
+            margin: 130px 9.5% 5px auto;
+            border-radius: 3px;
+            padding-left:0;
+		}
+		.social ul li {
+			width:23px;
+			height: 89%;
+            position: relative;
+            display: block;
+            float: left;
+            margin-top:2px;
+            margin-left:8px;
+		}
+		.profile p{
+			text-align: center;
+			line-height:24px;
+			color: #555;
+			transition:0.7s;
+		}
+		#section{
+              display: flex;
+              justify-content: space-between;/**/
+              width: 85%;
+              margin: auto;
+		}
+	/*Animation Effects*/
+	.profile img:hover{
+       width:235px;
+       height: 160px;
+       z-index: 2;
+	}
+	.profile:hover{
+		background: aquamarine;
+	}
+   .profile:hover h4{
+		color: #655c56;
+		font-size: 1.1em;
+		margin-top:20px;
+		left: 18px;
+	}
+	  .profile:hover small{
+		color: #333333;
+		font-size:14px;
+		letter-spacing:1px;
+	}
+	.profile:hover p{
+		color: #084177;
+	}
+	.profile:hover .social ul{
+		background: #fffdf9;
+	}
+	
+	</style>
+</head>
+<body>
+    <div id="box">
+    	<h1>Our Section</h1>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+    	quis nostrud exercitation ullamco .</p>
+    </div>
+    <div id="section">
+
+    	<div class="profile">
+    		<h4>Omar Toraif</h4>
+    		<small>Fournisseur</small>
+    		<img src="costa.jpg">
+    		<div class="social">
+    		    <ul>
+    		    	<a href="#"><li style="margin-left:35px;"><img src="facebook2.png" style="width: 23px;height:14px;position: absolute;top: 0;left:0;cursor:pointer;border:1px solid black;"></li></a>
+    		    	<a href=""><li><img src="instagram.png" style="width: 23px;height:16px;position: absolute;top: 0;left:4px;cursor:pointer;"></li></a>
+    		    	<a href=""><li><img src="twitter2.png" style="width: 23px;height:16px;position: absolute;top: 0;left:6px;cursor:pointer;"></li></a>
+    		    	<a href=""><li><img src="whatsapp.png" style="width: 23px;height:15px;position: absolute;top: 0;left:7.5px;cursor:pointer;"></li></a>
+    		    </ul>
+    		</div>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua.</p>
+    	</div>
+    	<div class="profile">
+    		<h4>Omar Toraif</h4>
+    		<small>Fournisseur</small>
+    		<img src="gray.jpg">
+    		<div class="social">
+    		    <ul>
+    		    <a href=""><li style="margin-left:35px;"><img src="facebook2.png" style="width: 23px;height:14px;position: absolute;top: 0;left:0;cursor:pointer;border:1px solid black;"></li></a>	
+    		    	<a href=""><li><img src="instagram.png" style="width: 23px;height:16px;position: absolute;top: 0;left:4px;cursor:pointer;"></li></a>
+    		    	<a href=""><li><img src="twitter2.png" style="width: 23px;height:16px;position: absolute;top: 0;left:6px;cursor:pointer;"></li></a> 
+    		    	<a href=""><li><img src="whatsapp.png" style="width: 23px;height:15px;position: absolute;top: 0;left:7.5px;cursor:pointer;"></li></a> 
+    		    </ul>
+    		</div>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua.</p>
+    	</div>
+    	<div class="profile">
+    		<h4>Omar Toraif</h4>
+    		<small>Fournisseur</small>
+    		<img src="costa.jpg">
+    		<div class="social">
+    		    <ul>
+    		    <a href=""><li style="margin-left:35px;"><img src="facebook2.png" style="width: 23px;height:14px;position: absolute;top: 0;left:0;cursor:pointer;border:1px solid black;"></li></a>	
+    		    <a href=""><li><img src="instagram.png" style="width: 23px;height:16px;position: absolute;top: 0;left:4px;cursor:pointer;"></li></a>	
+    		    <a href=""><li><img src="twitter2.png" style="width: 23px;height:16px;position: absolute;top: 0;left:6px;cursor:pointer;"></li></a>	
+    		    <a href=""><li><img src="whatsapp.png" style="width: 23px;height:15px;position: absolute;top: 0;left:7.5px;cursor:pointer;"></li></a>	
+    		    </ul>
+    		</div>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua.</p>
+    	</div>
+    	<div class="profile" style="margin-right:0;">
+    		<h4>Omar Toraif</h4>
+    		<small>Fournisseur</small>
+    		<img src="gray.jpg">
+    		<div class="social">
+    		    <ul>
+    		     <a href=""><li style="margin-left:35px;"><img src="facebook2.png" style="width: 23px;height:14px;position: absolute;top: 0;left:0;cursor:pointer;border:1px solid black;"></li></a>	
+    		     <a href=""><li><img src="instagram.png" style="width: 23px;height:16px;position: absolute;top: 0;left:4px;cursor:pointer;"></li></a>	
+    		     <a href=""><li><img src="twitter2.png" style="width: 23px;height:16px;position: absolute;top: 0;left:6px;cursor:pointer;"></li></a>	
+    		    <a href=""></a>	<li><img src="whatsapp.png" style="width: 23px;height:15px;position: absolute;top: 0;left:7.5px;cursor:pointer;"></li>
+    		    </ul>
+    		</div>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua.</p>
+    	</div>
+    </div>
+</body>
+</html>
